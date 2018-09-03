@@ -2,9 +2,9 @@
 title: Remove Whitespace from Start and End
 ---
 ## Remove Whitespace from Start and End
+To remove space in the beggining, use /^\s+/
+To remove space in the end, use /\s+$/
+So here's the answer:
+  let hello = " Hello, World!  ";
+  let result=hello.replace(/^\s+/,"").replace(/\s+$/,"");
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/regular-expressions/remove-whitespace-from-start-and-end/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
